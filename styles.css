@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax-section {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+#section0 {
+    background-image: url('water-branches-leaves.jpg');
+    /* Replace with your image URL */
+}
+
+#section1 {
+    background-image: url('headshot-profile-nathalie_joyce.jpg');
+    /* Replace with your image URL */
+}
+
+#section2 {
+    background-image: url('winter-tree-branch-leaf.jpg');
+    /* Replace with your image URL */
+}
+
+#section3 {
+    background-image: url('hands-water-leaves.jpg');
+    /* Replace with your image URL */
+}
+
+#section4 {
+    background-image: url('hands-dandelion-hold_on-light.jpg');
+    /* Replace with your image URL */
+    color: black;
+}
+
+#section5 {
+    background-image: url('hand-dandelion-releasing.jpg');
+    /* Replace with your image URL */
+}
+
+#section9 {
+    background-image: url('hands-dandelion-let_go.jpg');
+    /* Replace with your image URL */
+}
+
+hgroup {
+    /* text-align: right; */
+    /* padding-right: 16px; */
+    /* border-right: 10px solid #00c8d7; */
+    color: black;
+  }
+  
+  hgroup blockquote {
+    /* margin-bottom: 0; */
+    /* color: black; */
+    font-style: italic;
+  }
+  
+  hgroup p {
+    /* color: black; */
+    /* margin: 0; */
+    font-weight: bold;
+  }
+
+/* Add more styling for other sections as needed */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+.parallax-content {
+    text-align: center;
+    padding: 20px;
+}
