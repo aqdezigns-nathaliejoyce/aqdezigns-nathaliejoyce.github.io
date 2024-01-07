@@ -9,6 +9,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* Workaround for some mobile browsers */
+        min-width: 100%;
     position: relative;
     display: flex;
     align-items: center;
@@ -16,60 +18,57 @@ body {
     color: #fff;
 }
 
-#section0 {
+#home {
     background-image: url('assets/images/water-branches-leaves.jpg');
     /* Replace with your image URL */
 }
 
-#section1 {
+#about {
     background-image: url('assets/images/headshot-profile-nathalie_joyce.jpg');
     /* Replace with your image URL */
 }
 
-#section2 {
+#embodied-healing {
     background-image: url('assets/images/winter-tree-branch-leaf.jpg');
     /* Replace with your image URL */
 }
 
-#section3 {
+#relational-healing {
     background-image: url('assets/images/hands-water-leaves.jpg');
     /* Replace with your image URL */
 }
 
-#section4 {
+#community-consulta {
     background-image: url('assets/images/hands-dandelion-hold_on-light.jpg');
     /* Replace with your image URL */
-    color: black;
+    color: #000;
 }
 
-#section5 {
-    background-image: url('assets/images/hand-dandelion-releasing.jpg');
+#praise {
+    background-image: url('assets/images/forest-tree-branches.jpg');
     /* Replace with your image URL */
 }
 
-#section9 {
+#contact {
     background-image: url('assets/images/hands-dandelion-let_go.jpg');
     /* Replace with your image URL */
 }
 
-hgroup {
-    /* text-align: right; */
-    /* padding-right: 16px; */
-    /* border-right: 10px solid #00c8d7; */
-    color: black;
-  }
-  
-  hgroup blockquote {
-    /* margin-bottom: 0; */
-    /* color: black; */
-    font-style: italic;
-  }
-  
-  hgroup p {
-    /* color: black; */
-    /* margin: 0; */
-    font-weight: bold;
-  }
+#footer {
+    background-image: url('assets/images/bs-body-bg.jpg');
+    /* Replace with your image URL */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Workaround for some mobile browsers */
+        min-width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
 
 /* Add more styling for other sections as needed */
 
