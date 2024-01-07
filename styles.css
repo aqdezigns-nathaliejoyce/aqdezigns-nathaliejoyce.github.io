@@ -19,37 +19,58 @@ body {
 #section0 {
     background-image: url('water-branches-leaves.jpg');
     /* Replace with your image URL */
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
 }
 
 #section1 {
     background-image: url('headshot-profile-nathalie_joyce.jpg');
     /* Replace with your image URL */
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
 }
 
 #section2 {
     background-image: url('winter-tree-branch-leaf.jpg');
     /* Replace with your image URL */
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
 }
 
 #section3 {
     background-image: url('hands-water-leaves.jpg');
     /* Replace with your image URL */
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
 }
 
 #section4 {
     background-image: url('hands-dandelion-hold_on-light.jpg');
     /* Replace with your image URL */
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
     color: black;
 }
 
 #section5 {
     background-image: url('hand-dandelion-releasing.jpg');
     /* Replace with your image URL */
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
 }
 
 #section9 {
     background-image: url('hands-dandelion-let_go.jpg');
     /* Replace with your image URL */
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
 }
 
 hgroup {
