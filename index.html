@@ -64,7 +64,6 @@
 <div class="parallax-section" id="section0">
     <div class="parallax-content">
         <h1 style="text-transform: capitalize;">Relational Healing for Collective Liberation</h1>
-        <%# <p>Your <u>Section 0</u> content goes here.</p> %>
         <h3>creating space during life's most uncertain times</h3>
     </div>
 </div>
@@ -73,7 +72,6 @@
 <div class="parallax-section" id="section1">
     <div class="parallax-content">
         <h1>About</h1>
-        <%# <p>Your <u>Section 1</u> content goes here.</p> %>
         <p>Nathalie Joyce is a queer bilingual curanderx (healer), folk herbalist, relationship counselor, and mother descended from a long lineage of Afro-Cuban healers and Gallega intuitives.</p>
         <p style="font-weight: bold;">Passionate about supporting individuals and couples that hold QTBIPOC, LGBTQIA+, and disabled identities.</p>
         <p>Living and practicing on unceded Nonotuck and Nipmuc land. They love cooking sopa de pollo, dancing with their family, and communing with the sweet waters and forests near their home.</p>
@@ -84,7 +82,6 @@
 <div class="parallax-section" id="section2">
     <div class="parallax-content">
         <h1>Embodied Healing for Liminial Times</h1>
-        <%# <p>Your <u>Section 2</u> content goes here.</p> %>
         <p>Liminal times are thresholds between the past and the future, entre mundos. Embodied healing sessions provide support and guidance as you navigate the in between spaces of your life.</p>
     </div>
 </div>
@@ -93,7 +90,6 @@
 <div class="parallax-section" id="section3">
     <div class="parallax-content">
         <h1>Relational Healing & Intimacy</h1>
-        <%# <p>Your <u>Section 3</u> content goes here.</p> %>
         <p>Navigating life transitions, finding liberation in the face of oppression, healing from loss and grief, and deepening intimacy in relationship.</p>
     </div>
 </div>
@@ -102,21 +98,26 @@
 <div class="parallax-section" id="section4">
     <div class="parallax-content">
         <h1>Community Consulta</h1>
-        <%# <p>Your <u>Section 4</u> content goes here.</p> %>
         <p>Supportive cura and connection centering justice in community.</p>
     </div>
 </div>
 
 <!-- Content for Section 5 -->
-
 <div class="parallax-section" id="section5">
     <div class="parallax-content">
         <hgroup style="text-color:#000;">
             <h1>Prayers & Praise</h1>
             <h3>The community chimes in...</h3>
             <br><br>
-        <!-- Comments/Reviews -->
-            <%= render partial: "shared/praise" %>
+        <!-- Praise Content -->
+        <blockquote>"Nathalie is the person you want by your side if you need to weather a storm, walk a hard road, or climb something seemingly insurmountable. She brings tremendous love, deep listening, life experience, and a rich spiritual practice to her personal and professional life. She is able to resource joy, play and hope in the face of hardship. As a colleague, I know her to be a person of integrity, fiercely committed to her values. She is able to say even the hardest things with love and grace. Her presence is prayer and medicine."</blockquote>
+            <p>&mdash;denise goitia, licsw​</p>
+        <br>
+        <blockquote>"I’m always moved by Nathalie’s insights and ability to unearth root causes of discomfort toward true transformation. As someone who engages in her own contemplative practice, she is able to be present and listen deeply. She hears both what is said and what is yearning to be expressed beyond words. She brings the valuable, empowering skill of holistic herbalism to her practice, helping clients reconnect to Mother Earth and reclaim ancestral wisdom."</blockquote>
+            <p>&mdash;vanessa chakour, herbalist, activist, and founder of sacred warrior​</p>
+        <br>
+        <blockquote>"Nathalie’s skill and care helped me settle my mind and heart as my mother was dying. She helped me move to a place of presence and tenderness. I am forever grateful for her insights, encouragement, and accompaniment."</blockquote>
+            <p>&mdash;former client</p>
         </hgroup>
     </div>
 </div>
@@ -127,13 +128,54 @@
         <h1>Getting in touch</h1>
         <hr>
     <!-- Contact Form -->
-        <%= render partial: "shared/contact-form" %>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputName1" class="form-label">Full Name&nbsp;:</label>
+                <input type="email" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address&nbsp;:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3 form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Embodied Healing
+                </label>
+            </div>
+            <div class="mb-3 form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Relational Healing
+                </label>
+            </div>
+            <div class="mb-3 form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Community Cura
+                </label>
+            </div>
+            <div class="mb-3 form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Consultations & Training
+                </label>
+            </div>
+            <div class="mb-3 form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Something else
+                </label>
+            </div>
+        
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    <!-- Contact Form -->
         <br>
         <h5 style="color: black;">*Please note that this form is not a secure method of communication.</h5>
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
   </body>
-
 </html>
