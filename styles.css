@@ -24,7 +24,12 @@ body {
 }
 
 #about {
-    background-image: url('headshot-profile-nathalie_joyce.jpg');
+    background-image: url('headshot-profile-nathalie_joyce-cropped.jpg');
+    /* Replace with your image URL */
+}
+
+#about-page {
+    background-image: url('assets/images/headshot-nathalie_joyce.jpg');
     /* Replace with your image URL */
 }
 
@@ -52,6 +57,7 @@ body {
 #contact {
     background-image: url('hands-dandelion-let_go.jpg');
     /* Replace with your image URL */
+    color: #000;
 }
 
 #footer {

@@ -6,6 +6,10 @@ class MainsController < ApplicationController
     @mains = Main.all
   end
 
+  def about
+    render :about
+  end
+
   # GET /mains/1 or /mains/1.json
   def show
   end
