@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.blk {
+  color: #000;
+}
+
+.modal-title {
+  text-transform: uppercase;
+}
+
+.parallax-section {
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Workaround for some mobile browsers */
+        min-width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+#home {
+    background-image: url('water-branches-leaves.jpg');
+    /* Replace with your image URL */
+}
+
+#about {
+    background-image: url('headshot-profile-nathalie_joyce-cropped.jpg');
+    /* Replace with your image URL */
+}
+
+#about-page {
+    background-image: url('headshot-nathalie_joyce.jpg');
+    /* Replace with your image URL */
+}
+
+#embodied-healing {
+    background-image: url('winter-tree-branch-leaf.jpg');
+    /* Replace with your image URL */
+}
+
+#self-ser {
+  background-image: url('winter-tree-branch-leaf.jpg');
+  /* Replace with your image URL */
+}
+
+#relational-healing {
+    background-image: url('hands-water-leaves.jpg');
+    /* Replace with your image URL */
+}
+
+#community-consulta {
+    background-image: url('hands-dandelion-hold_on-light.jpg');
+    /* Replace with your image URL */
+    color: #000;
+}
+
+#client-love {
+    background-image: url('forest-tree-branches.jpg');
+    /* Replace with your image URL */
+}
+
+#contact {
+    background-image: url('hands-dandelion-let_go.jpg');
+    /* Replace with your image URL */
+    color: #000;
+}
+
+#footer {
+    background-image: url('bs-body-bg.jpg');
+    /* Replace with your image URL */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Workaround for some mobile browsers */
+        min-width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* Add more styling for other sections as needed */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+.parallax-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.parallax-content-about {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(204, 204, 204, 0.43);
+}
+
+.parallax-content-about2 {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(204, 204, 204, 0);
+}
